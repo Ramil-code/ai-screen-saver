@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# AI Screen Saver
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AI Screen Saver is an innovative, interactive screensaver that generates a dynamic, neon-glowing word cloud using AI-generated text. The size of the words depends on the probability of their occurrence. The application gradually builds an inspirational phrase, seamlessly adapting to both mobile and desktop screens. 
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e4be7c10-f9ae-42e4-a5c9-0349e0115ee2" alt="AI Screen Saver" width="70%">
+</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Responsive Design:** Adapts to various screen sizes, ensuring optimal viewing on both mobile devices and desktops.
+- **Dynamic Word Cloud:** Uses D3.js and d3-cloud to generate and animate words.
+- **Neon Glow Effects:** Each word is rendered with a cool neon effect and smooth transitions.
+- **AI Integration:** Fetches candidate words from an AI backend to build a meaningful phrase.
+- **Interactive Experience:** Gradually highlights key words to enhance user engagement.
 
-### `npm test`
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7c63131e-1a7d-4ff7-b5ed-6f00ebd4c260" alt="example" width="70%">
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Ramil-code/ai-screen-saver
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install Dependencies:**
+      ```bash
+   cd ai-screen-saver
+   npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Running the Application:**
+      ```bash
+   npm start
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License.
